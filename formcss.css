@@ -35,15 +35,25 @@ form {
   min-width: 90%;
 }
 
+
 input {
   background-color: #DFE1E7;
   margin-bottom: 0.8em;
 }
 
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  width: 100%;
+}
+
 /*** Flexbox ***/
 
 .container,
-form {
+form
+fieldset {
   display: flex;
   flex-direction: column;
 }
