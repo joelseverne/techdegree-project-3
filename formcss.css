@@ -41,6 +41,10 @@ input {
   margin-bottom: 0.8em;
 }
 
+.zip {
+  width: 50%;
+}
+
 fieldset {
   border: none;
   margin: auto 0;
@@ -50,6 +54,11 @@ fieldset {
 
 fieldset input {
   width: 100%;
+}
+
+textarea {
+  background-color: #DFE1E7;
+  border: none;
 }
 
 
@@ -72,5 +81,5 @@ fieldset {
 }
 
 .item {
-  flex: 1
+  flex: 2
 }
