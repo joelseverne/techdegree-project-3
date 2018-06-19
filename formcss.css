@@ -43,11 +43,15 @@ input {
 
 fieldset {
   border: none;
+  margin: auto 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 fieldset input {
   width: 100%;
 }
+
 
 /*** Flexbox ***/
 
