@@ -58,6 +58,10 @@ select {
   width: 100%;
 }
 
+input[type="checkbox"] {
+  display: inline-block;
+}
+
 textarea {
   background-color: #DFE1E7;
   border: none;
@@ -71,6 +75,7 @@ button[type="submit"] {
   width: 100%;
   padding: 1.6em;
 }
+
 
 
 /*** Flexbox ***/
