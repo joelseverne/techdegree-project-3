@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Merriweather', sans-serif;
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .banner,
@@ -41,7 +41,7 @@ input {
   margin-bottom: 0.8em;
 }
 
-.zip {
+#zipCode {
   width: 50%;
 }
 
@@ -59,6 +59,15 @@ fieldset input {
 textarea {
   background-color: #DFE1E7;
   border: none;
+  width: 100%;
+  padding: 2.4em;
+}
+
+button[type="submit"] {
+  background-color: #64C2C1;
+  color: #fff;
+  width: 100%;
+  padding: 1.6em;
 }
 
 
