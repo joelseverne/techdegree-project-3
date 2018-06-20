@@ -36,7 +36,8 @@ form {
 }
 
 
-input {
+input,
+select {
   background-color: #DFE1E7;
   margin-bottom: 0.8em;
 }
@@ -52,7 +53,8 @@ fieldset {
   padding-right: 0;
 }
 
-fieldset input {
+fieldset input,
+select {
   width: 100%;
 }
 
