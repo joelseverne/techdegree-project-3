@@ -87,6 +87,16 @@ fieldset {
   flex-direction: column;
 }
 
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  /* width:18px; */
+  text-align: left;
+  height:25px;
+  padding:15px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
