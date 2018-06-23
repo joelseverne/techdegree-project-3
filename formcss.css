@@ -91,7 +91,7 @@ fieldset {
 
 input[type="checkbox"],
 input[type="radio"] {
-  /* width:18px; */
+  width:18px;
   text-align: left;
   height:25px;
   padding:15px;
