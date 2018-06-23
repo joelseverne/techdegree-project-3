@@ -54,18 +54,30 @@
 
     <fieldset class="item">
 
-      <div class="options">
+      <div>
         <label>
           Select the newsletters you
           you would like to receive
         </label><br>
-        <input type="checkbox" id="HTML_News" value="Newsletter_HTML"
-        name="newsletter_choice"><label for="HTML_News">HTML News</label><br>
-        <input type="checkbox" id="CSS_News" value="Newsletter_CSS"
-        name="newsletter_choice"><label for="CSS_News">CSS News</label><br>
-        <input type="checkbox" id="JavaScript_News" value="Newsletter_JavaScript"
-        name="newsletter_choice"><label for="JavaScript_News">JavaScript News</label><br>
-    </div>
+        <ul>
+          <li><input type="checkbox" id="HTML_News" value="Newsletter_HTML"
+          name="newsletter_choice"><label for="HTML_News">HTML News</label></li>
+          <li><input type="checkbox" id="CSS_News" value="Newsletter_CSS"
+          name="newsletter_choice"><label for="CSS_News">CSS News</label></li>
+          <li><input type="checkbox" id="JavaScript_News" value="Newsletter_JavaScript"
+          name="newsletter_choice"><label for="JavaScript_News">JavaScript News</label></li>
+        </ul>
+
+        <label>Newsletter format</label><br>
+
+        <ul>
+          <li><input type="radio" id="newsletter_html" value="newsletter_html"
+          name="newsletter_choice"><label>HTML</label></li>
+          <li><input type="radio" id="newsletter_plainText" value="newsletter_plainText"
+          name="newsletter_choice"><label>Plain text</label></li>
+        </ul>
+      </div>
+
 
     <p>
       Other topics you'd
@@ -79,6 +91,10 @@
 
 
     </form>
+
+    <footer>
+      <p><i>Copyright The Code Review</i></p>
+    </footer>
 
   </div>
 </body>
