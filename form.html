@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <title>The Code Review</title>
   <meta charset="UTF-8">
@@ -28,9 +28,10 @@
 
     <form action="form.html" method="post">
 
+      <fieldset>
+
       <legend>Contact Information</legend>
 
-      <fieldset>
       <div class="desktopflex">
       <label class="item1 item" for="name">Full Name</label>
       <input class="item2 item" type="text" id="name" name="user_name" placeholder="Required">
@@ -45,7 +46,7 @@
       </div>
       <div class="desktopflex">
       <label class="item1 item" for="street">Street Address</label>
-      <input class="item2 item" type="text" id="street" name="user_street"placeholder="Street">
+      <input class="item2 item" type="text" id="street" name="user_street" placeholder="Street">
       </div>
       <div class="desktopflex">
       <label class="item1 item" for="city">City</label>
@@ -53,7 +54,7 @@
       </div>
       <div class="desktopflex">
       <label class="item1 item" for="state">State</label>
-      <select class="item2 item" id="state" name="user_state" placeholder="State">
+      <select class="item2 item" id="state" name="user_state">
         <option value="California">California</option>
         <option value="Florida">Florida</option>
         <option value=" Hawaii"> Hawaii</option>
@@ -66,11 +67,14 @@
       <label class="item1 item" for="zipCode">Zip Code</label>
       <input class="item3 item" type="text" id="zipCode" name="user_zipCode" placeholder="Zip code">
       </div>
+
     </fieldset>
 
-    <legend>Newsletter</legend>
+
 
     <fieldset>
+
+        <legend>Newsletter</legend>
 
       <div>
         <label>
