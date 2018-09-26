@@ -35,7 +35,7 @@ h2 {
   border-bottom: solid black 3px;
   padding-top: 0.8em;
   padding-bottom: 0.8em;
-  max-width: 100%;
+  max-width: 90%;
   color: #D5DBDB;
 }
 
@@ -50,7 +50,6 @@ legend {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   border-top: solid 1px black;
-  width: 100%;
 
 }
 
@@ -87,7 +86,9 @@ select:focus {
 }
 
 #zipCode {
+  width: 50%;
   margin-bottom: 0.8em;
+
 }
 
 fieldset {
@@ -158,54 +159,16 @@ input[type="radio"] {
   margin-bottom: 0;
   margin-right: 20px;
   vertical-align: bottom;
-  outline: none;
 }
-
 
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 95%;
+  max-width: 90%;
   justify-content: center;
   margin: 0 auto;
 }
 
-
-
-/* Media Queries */
-
-@media (min-width: 768px) {
-
-  .container {
-    max-width: 50%;
-  }
-
-  .tagline {
-    margin-left: 0;
-    margin-right: 0;
-    min-width: 100%;
-  }
-
-  .desktopflex {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .item {
-  padding-top:15px;
-  padding-bottom:15px;
-}
-
-  .item1 {
-    width:35%;
-  }
-
-  .item2 {
-    width: 65%;
-  }
-
-  .item3 {
-    width: 20%;
-  }
-
+.item {
+  flex: 2;
 }
